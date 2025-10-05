@@ -29,6 +29,7 @@ public class FilkomCinema {
         int pilihan = input.nextInt();
         int hargaBayar = input.nextInt();
 
+        input.close();
         //Selection Condition
         if (pilihan < 4 ) {
             if (pilihan == 1) {
